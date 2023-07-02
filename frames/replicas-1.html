@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        h1{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Replicas</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ze_ANsckvS0?rel=0;controls=0&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Sci-Fi</button>
+        <button>Mystery & Thriller</button>
+        <button>Drama</button>
+    </p>
+    
+
+    <section>
+        <p>
+            Neuroscientist William Foster is on the verge of transferring human consciousness into a computer when his beloved wife and children are killed in a car crash. Desperate to resurrect his family, Foster recruits a fellow scientist to secretly help clone their bodies and create replicas. When William learns that he can only replicate three of his four family members, he makes a decision that holds fateful consequences.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/eJfVPSRnvfQNQm_n9VQ6aJKncMc=/218x280/v2/https://flxt.tmsimg.com/assets/554667_v9_bb.jpg">
+                    <p>Thomas Middleditch <i>as Ed</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/xxD1pNSSAOPSaklGqOLNVgjarBY=/218x280/v2/https://flxt.tmsimg.com/assets/362995_v9_ba.jpg">
+                    <p>Alice Eve <i>as Mona</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/vto5dzNNJ92XxAQCzJW30RaxBSs=/218x280/v2/https://flxt.tmsimg.com/assets/68350_v9_bb.jpg">
+                    <p>John Ortiz <i>as Jones</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/UxjfoyAgu7zhk33APexTTOFCq2Y=/218x280/v2/https://flxt.tmsimg.com/assets/694540_v9_bb.jpg">
+                    <p>Emjay Anthony <i>as Matt Foster</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/i8Q23VqdsoWBnSyt77pJ_NM694A=/218x280/v2/https://flxt.tmsimg.com/assets/555445_v9_bb.jpg">
+                    <p>Emily Alyn Lind <i>as Sophie</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

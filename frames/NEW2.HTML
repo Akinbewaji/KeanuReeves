@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <titile></titile>
+        <style>
+            body{
+                background-attachment:scroll;
+                background-color: bisque;
+                background-image: url("C:/Users/NATHANIEL.A.JENKEO/Pictures/New folder/html/4.jpg");
+                background-size: cover;
+            }
+
+            .bar{
+                height : 1000px;
+                width: 900px; 
+                background-color: bisque;
+                overflow : scroll ;
+                position: relative;
+                overflow: scroll;
+
+            }
+            .user{
+                height: 65px;
+                width: 65px;
+                border-radius: 50%;
+                background-color: grey;
+                position: relative;
+                opacity: 1;
+            }
+
+            .linkbox a{
+                font-style: italic;
+                color:black ;
+                font-weight: 600;
+                text-decoration: none;
+                font-size: x-large;
+
+            }
+            .linkbox a:hover{
+                text-decoration: underline;
+                text-size-adjust: 5%;
+                text-decoration: underline  ;
+            }
+            .bg {
+                 display :flex ;
+                height : auto;
+                width: auto ;
+                visibility :hidden;
+            }
+            .linkbox{
+                height : 70px;
+                width : 950;
+                display :flex;
+                flex-direction: row;
+                margin: 0 , auto;
+                padding: 5px;
+                /* background-color: yellow ; */
+                position:relative;
+                overflow: visible;
+                margin-bottom: 10px;
+                /* opacity: 0.1; */
+            }
+
+            .ads{
+                height : 300px;
+                width : 100%;
+                border-radius: 2%;
+                background-color: black ;
+                margin-bottom: 10px;
+            }
+
+        </style>
+        </head>
+        <body>
+            <div class="linkbox">
+                <div class="user" style="left:1150px;"></div>
+                <img width="100px" height="fit-content" src="#" alt="keenu reeves"  id="keenu_logo">
+                <nav style="margin: 30px; position:relative; left:700px;" id="nav">
+                    <a href="#" id="link1">link1</a>
+                    <a href="#" id="link2">link2</a>
+                    <a href="#" id="link1">link3</a>
+                    <a href="#" id="link2">link4</a>
+                </nav>
+            </div>
+            <div class="ads"></div>
+            <center>
+                <div class="bar">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam mollitia id impedit totam facere consectetur quas. Illum sed doloremque laborum eaque iure provident quia, voluptate neque rerum eligendi nesciunt vel.<br><br><br></p>
+                    <p>Ipsum dolorum tenetur asperiores quam qui dolorem aliquid voluptatibus, adipisci minima illo assumenda, amet sint accusamus debitis sit tempora impedit quae quaerat vitae, aut vel minus mollitia. Illo, a voluptatibus?<br><br><br></p>
+                    <p>Molestiae esse nulla quo harum maiores fugiat ipsa et, similique animi cum quidem in veritatis aspernatur saepe, fuga laboriosam est natus voluptatem ad totam quaerat unde? Excepturi odit ea sequi?<br><br><br></p>
+                    <p>Suscipit, velit amet laborum itaque quisquam nobis earum cum error quis explicabo perferendis perspiciatis voluptates quo, aliquam blanditiis enim quam ab obcaecati facilis! Sequi dicta repudiandae quibusdam nemo veniam excepturi.<br><br><br></p>
+                    <p>Quam possimus sapiente aspernatur hic quibusdam, doloremque animi culpa dolores nobis, ad recusandae illo, tenetur magni officiis earum asperiores suscipit voluptatem! Fugit, provident laudantium dolor ad ut eius dolore qui?<br><br><br></p>
+                    <p>Minima eligendi excepturi quos sapiente animi saepe maxime repellendus! Expedita illum accusantium fugit a quasi placeat vitae cupiditate ullam culpa repellendus dolorem vero voluptatibus recusandae magni, aspernatur quod, rem vel?<br><br><br></p>
+                    <p>Dolor, fugiat dolore praesentium quibusdam dignissimos molestiae modi. Non a ad ex voluptas, ipsa asperiores possimus consequuntur nesciunt animi dicta earum dolorem fuga? Perspiciatis impedit illum, ratione earum minima reprehenderit?<br><br><br></p>
+                    <p>Facere deserunt eligendi aspernatur itaque porro fuga distinctio aliquid, incidunt sunt placeat aperiam expedita consectetur nisi a fugiat, tempora veniam blanditiis veritatis impedit, deleniti delectus. Itaque rem cupiditate repellat nostrum.<br><br><br></p>
+                    <p>Dolores, at illum labore maiores aliquam quis aliquid mollitia nostrum possimus alias ipsam asperiores eveniet animi dolor commodi officia ex quidem. Incidunt dolor quidem recusandae perspiciatis inventore cum illum assumenda!<br><br><br></p>
+                    <p>Est nemo labore quos tenetur, sed sunt at eligendi. Veritatis dolore quasi et ea voluptas? Eaque voluptate error, nemo debitis numquam quod sunt quae? Aspernatur ducimus esse quisquam molestias repellat.<br><br><br></p>
+                </div>
+        </center>
+        <footer>
+            <div class="ads" style="margin-top: 10px;"></div>
+        </Ffooter>
+            <script>
+                let b  = "login to add a profile pic ";
+
+                $("#linkbox").ready(function(){
+                    $("#user").mouseover(function(){
+                        $("user").innerhtml= b; 
+                    });
+                    $("#nav").click(function(){
+                        $("nav").style.color = red;
+                    });
+                    $("#keenu_logo").click(function(){
+                        $("keenu_logo").innerhtml = "#";
+                    })
+                })
+                
+            </script>
+             </body>
+</html>

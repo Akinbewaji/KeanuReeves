@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Devil's Advocate</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/40hHA9n4C2o?rel=0;controls=0;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Mystery & Thriller</button>
+        <button>Fantasy</button>
+        <button>Horror</button>
+    </p>
+    
+
+    <section>
+        <p>
+            Aspiring Florida defense lawyer Kevin Lomax (Keanu Reeves) accepts a high-powered position at a New York law firm headed by legal shark John Milton (Al Pacino). As Kevin moves up in the firm's ranks, his wife, Mary Ann (Charlize Theron), has several frightening, mystical experiences that begin to warp her sense of reality. With the stakes getting higher with each case, Kevin quickly learns that his mentor is planning a far greater evil than simply winning without scruples.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/nQHobrktpiyD8zDRKtF9loyBJFg=/218x280/v2/https://flxt.tmsimg.com/assets/2657_v9_bb.jpg">
+                    <p>Al Pacino <i>as John Milton</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/wsAkEbOlzY0oYsPf94I9oO7Lkh4=/218x280/v2/https://flxt.tmsimg.com/assets/68310_v9_bc.jpg">
+                    <p>Charlize Theron <i>as Mary Ann Lomax</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/RDbyAdbkfKsA0wcCT4iiXSfRFE0=/218x280/v2/https://flxt.tmsimg.com/assets/30825_v9_ba.jpg">
+                    <p>Jeffrey Jones <i>as Eddie Barzoon</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/NtIEwF-Pn5nyla9IAsOJVloU5oI=/218x280/v2/https://flxt.tmsimg.com/assets/833_v9_bb.jpg">
+                    <p>Judith Ivey <i>as Mrs Alice Lomax</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/VA17VrINvKWCG_pw3dITMaqJbyQ=/218x280/v2/https://flxt.tmsimg.com/assets/155555_v9_ba.jpg">
+                    <p>Connie Nielsen <i>as Christabella Adreoli</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

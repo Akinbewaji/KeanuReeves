@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 15vh 8vw;
+            justify-content: center;
+            background-image: url(../images/wickTxt.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            backdrop-filter: blur(8px);
+            overflow: hidden;
+        }
+        a{
+            width: 30vw;
+            height: 40vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+            box-sizing: border-box;
+        }
+        a h1{
+            position: absolute;
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            font-size: 10rem;
+            color: white;
+            transition: 1s linear;
+            transition-property: transform, opacity;
+        }
+        a img{
+            width: 120%;
+            height: 120%;
+            object-fit: cover;
+            object-position: center;
+            opacity: 0;
+            transition: 1s linear;
+            transition-property: opacity, width, height;
+        }
+        a:hover h1{
+            transform: scale(5,3.25);
+            opacity: 0;
+        }
+        a:hover img{
+            opacity: 1;
+            width: inherit;
+            height: inherit;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="./wick1.html" class="wick1">
+        <h1>1</h1>
+        <img src="../images/wick3.jpg" alt="">
+    </a>
+    <a href="./wick2.html" class="wick2">
+        <h1>2</h1>
+        <img src="../images/inmovie8.jpg" alt="">
+    </a>
+    <a href="./wick3.html" class="wick3">
+        <h1>3</h1>
+        <img src="../images/inmovie3.JPG" alt="">
+    </a>
+    <a href="./wick4.html" class="wick4">
+        <h1>4</h1>
+        <img src="../images/inmovie2.jpg" alt="">
+    </a>
+</body>
+</html>

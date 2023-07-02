@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        h1{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Speed</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8piqd2BWeGI?rel=0;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Action</button>
+        <button>Mystery & Thriller</button>
+    </p>
+    
+
+    <section>
+        <p>
+            Los Angeles police officer Jack (Keanu Reeves) angers retired bomb squad member Howard Payne (Dennis Hopper) by foiling his attempt at taking hostages. In revenge, Payne arms a bus with a bomb that will explode if it drops below 50 miles per hour. With the help of spunky passenger Annie (Sandra Bullock), Jack and his partner Harry (Jeff Daniels) try to save the people on the bus before the bomb goes off, while also trying to figure out how Payne is monitoring them.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/r-lbO8HHwEzSs7RYWZ9n0jvJ35w=/218x280/v2/https://flxt.tmsimg.com/assets/795_v9_ba.jpg">
+                    <p>Dennis Hopper <i>as Howard Payne</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/KnaiUqd3W9NazkQE3rtTGyUnKrA=/218x280/v2/https://flxt.tmsimg.com/assets/57807_v9_bb.jpg">
+                    <p>Sandra Bullock <i>as Annie Porter</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/mD-2sY9-gIQOjkJc-O5_AaEilg4=/218x280/v2/https://flxt.tmsimg.com/assets/74297_v9_bb.jpg">
+                    <p>Joe Morton <i>as 'Mac' McMahon</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/0QCX81tkvTLD1-hbWBS2AeLZ3Vo=/218x280/v2/https://flxt.tmsimg.com/assets/403_v9_bb.jpg">
+                    <p>Jeff Daniels <i>as 'Harry' Temple</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/mfBJL1LxDs5ANXKO52KSW9ZTr20=/218x280/v2/https://flxt.tmsimg.com/assets/2899_v9_bb.jpg">
+                    <p>Alan Ruck <i>as Stephens</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

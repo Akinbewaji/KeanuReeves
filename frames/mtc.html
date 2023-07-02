@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        h1{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Man of Tai Chi</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ISxLxZysmgk?rel=0;controls=0&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Action</button>
+        <button>Drama</button>
+    </p>
+    
+
+    <section>
+        <p>
+            Tiger Chen is a Tai Chi student who is rather rebellious and uses Tai Chi to fight despite his master's concerns. When the temple where he studies get threatened from modern redevelopment, he fights in an underground fight club to get money the temple needs. However he soon realizes that his employer has other negative motives.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/YU8BoJRdTQUDuQHgdHMofUh-wZc=/218x280/v2/https://flxt.tmsimg.com/assets/220375_v9_ba.jpg" alt="mtcCast2">
+                    <p>Tiger Hu Chen <i>as Chen Linhu</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/g8Ypn0gnD8JKLmQYZr_aOvHfOYA=/218x280/v2/https://flxt.tmsimg.com/assets/75822_v9_bb.jpg" alt="mtcCast3">
+                    <p>Karen Bok <i>as Sun Jingshi</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/OQ4_DUh8GSaNx4z7qzTgD6KyYEU=/218x280/v2/https://flxt.tmsimg.com/assets/59419_v9_bb.jpg" alt="mtcCast4">
+                    <p>Simon Yam <i>as Superintendent Wong</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/E99ZG9pkSnOi1SUVnTToFVBOjmc=/218x280/v2/https://flxt.tmsimg.com/assets/644270_v9_ba.jpg" alt="mtcCast5">
+                    <p>Ye Qing <i>as Qingsha</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

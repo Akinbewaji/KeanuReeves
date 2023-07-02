@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        h1{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Siberia</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FRHe5J63ClM?rel=0;controls=0&amp;start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Mystery & Thriller</button>
+        <button>Romance</button>
+    </p>
+    
+
+    <section>
+        <p>
+            American diamond merchant Lucas Hill travels to Russia to sell rare blue diamonds to gangster Boris Volkov. However, his contact in St. Petersburg, Pyotr who had the diamonds has gone missing. Boris threatens Lucas to deliver the diamonds in 48 hours.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="../images/siberiaCast2.jpg">
+                    <p>Molly Ringwald <i>as Gabby</i></p>
+                </div>
+                <div>
+                    <img src="../images/siberiaCast3.jpg">
+                    <p>Ana Ularu <i>as Katya</i></p>
+                </div>
+                <div>
+                    <img src="../images/siberiaCast4.jpg">
+                    <p>Aleks Paunovic <i>as Yefrem</i></p>
+                </div>
+                <div>
+                    <img src="../images/siberiaCast5.jpg">
+                    <p>Veronica Ferres <i>as Raisa</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Point Break</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZgHPumVN4Fo?rel=0;controls=0&amp;start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Action</button>
+        <button>Mystery & Thriller</button>
+    </p>
+    
+
+    <section>
+        <p>
+            After a string of bizarre bank robberies in Southern California, with the crooks donning masks of various former presidents, a federal agent, Johnny Utah (Keanu Reeves), infiltrates the suspected gang. But this is no ordinary group of robbers. They're surfers -- led by the charismatic Bodhi (Patrick Swayze) -- who are addicted to the rush of thievery. But when Utah falls in love with a female surfer, Tyler (Lori Petty), who is close to the gang, it complicates his sense of duty.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as FBI Special Agent, John Utah</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/a5YJWLjR_ACl1kNabx7yVrh40Uo=/218x280/v2/https://flxt.tmsimg.com/assets/1739_v9_ba.jpg">
+                    <p>Patrick Swayze <i>as Bodhi</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/ijo6fM3vzNSTl1M8Rxa1AXlz2sE=/218x280/v2/https://flxt.tmsimg.com/assets/252_v9_ba.jpg">
+                    <p>Gary Busey <i>as FBI Agent, Angelo Pappas</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/vJdmh9OJm5dHRs31UlQV2Mcjmb4=/218x280/v2/https://flxt.tmsimg.com/assets/1340_v9_bb.jpg">
+                    <p>Lorry Petty <i>as Tyler Ann Endicott</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/u5IorwZhA79oh58L4fqypUqRe5w=/218x280/v2/https://flxt.tmsimg.com/assets/71924_v9_bc.jpg">
+                    <p>John C. McGinley <i>as FBI Agent Ben Harp</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/u5IorwZhA79oh58L4fqypUqRe5w=/218x280/v2/https://flxt.tmsimg.com/assets/71924_v9_bc.jpg">
+                    <p>James LeGros <i>as Roach</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

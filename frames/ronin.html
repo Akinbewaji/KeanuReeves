@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        h1{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>47 Ronin</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j8cKdDkkIYY?rel=0;controls=0&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Adventure</button>
+        <button>Action</button>
+        <button>Fantasy</button>
+    </p>
+    
+
+    <section>
+        <p>
+            In feudal Japan, Lord Asano rules his province with fairness. However, jealous Lord Kira (Tadanobu Asano) fears that the shogun favors Asano over him and hatches a plot that ends with Asano's ritual suicide. After Asano's death, his samurai, led by Oishi (Hiroyuki Sanada), are forced to live as outcasts. Oishi wanders for several years but realizes that he must turn to Kai (Keanu Reeves), a mixed-blood warrior he once rejected, to help him and his ronin comrades take revenge on Lord Kira.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="../images/roninCast2.jpg">
+                    <p>Hiroyuki Sanada <i>as Oishi</i></p>
+                </div>
+                <div>
+                    <img src="../images/roninCast3.jpg">
+                    <p>Tadanobu Asano <i>as Lord Kira</i></p>
+                </div>
+                <div>
+                    <img src="../images/roninCast4.jpg">
+                    <p>Rinko Kikuchi <i>as Witch</i></p>
+                </div>
+                <div>
+                    <img src="../images/roninCast5.jpg">
+                    <p>Ko Shibasaki <i>as Mika</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

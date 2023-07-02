@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        h1{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Day the Earth Stood Still</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6QFcZohER3s?rel=0;controls=0&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Sci-Fi</button>
+    </p>
+    
+
+    <section>
+        <p>
+            Klaatu (Keanu Reeves), an extraterrestrial visitor to planet Earth, becomes the herald of upheaval on a global scale. As the world's governments and scientists race to understand what is happening and how to stop it, Dr. Helen Benson (Jennifer Connelly) and her stepson come to understand the chilling ramifications behind Klaatu's statement that he is a "friend to the Earth.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="../images/tdessCast2.jpg">
+                    <p>Jennifer Connelly <i>as Dr. Helen Benson</i></p>
+                </div>
+                <div>
+                    <img src="../images/tdessCast3.jpg">
+                    <p>Kathy Bates <i>as Regina Jackson</i></p>
+                </div>
+                <div>
+                    <img src="../images/tdessCast4.jpg">
+                    <p>Jaden Smith <i>as Jacob Benson</i></p>
+                </div>
+                <div>
+                    <img src="../images/tdessCast5.jpg">
+                    <p>John Cleese <i>as Professor Barnhardt</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

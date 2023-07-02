@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exposed</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zqtxBY-5og8?rel=0;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Mystery & Thriller</button>
+        <button>Crime</button><button>Drama</button>
+    </p>
+    
+
+    <section>
+        <p>
+            While investigating the death of his partner, a detective (Keanu Reeves) uncovers police corruption and a dangerous secret involving a young woman (Ana de Armas).
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as FBI Special Agent, John Utah</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/oeHr2IN31nCWTiX3Ug-_g4Y5xiM=/218x280/v2/https://flxt.tmsimg.com/assets/587180_v9_bb.jpg">
+                    <p>Ana de Armas <i>as Isabel</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/45mvhL2bPqNJsldkZb6Phks4fEA=/218x280/v2/https://flxt.tmsimg.com/assets/72907_v9_bc.jpg">
+                    <p>Christopher McDonald <i>as Lieutenant Galway</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/oGs6TcYdrSl3Q9wvbx2phHPdyuY=/218x280/v2/https://flxt.tmsimg.com/assets/881_v9_bb.jpg">
+                    <p>Big Daddy Kane <i>as Jonathan 'Black' Jones</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/PaFj-BKG7ZzR368Bml2ZxOmd6cQ=/218x280/v2/https://flxt.tmsimg.com/assets/45711_v9_bb.jpg">
+                    <p>Michael Rispoli <i>as Detective Dibronski</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Here are the movies Keanu directed or featured in.">
+    <link rel="shortcut icon" href="./images/video.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/movies.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Jura">
+    <script src="./js/movies.js"></script>
+    <title>Movies</title>
+</head>
+
+<!-- https://youtu.be/DEa508Xmmio -->
+<body>
+    <header>
+        <!-- BACKGROUND VIDEO TO BE HERE -->
+        <video class="backgroundVid" loop muted autoplay plays-inline>
+            <source src="./vids/movShow.mp4" type="video/mp4">
+        </video>
+        <a class="quickNavButton" href="#quickNav"><img src="./images/fast.png"></a>
+    
+        <section class="firstSection">
+            <h1>Keanu's Movies</h1>
+            <div class="slider">
+                <div class="navBtn"></div>
+                <div class="navBtn"></div>
+                <div class="navBtn"></div>
+                <div class="navBtn"></div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="quickNav">
+            <h1>List of Movies Acted</h1>
+            <ol>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">The Matrix</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">John Wick</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">Constantine</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">Speed</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">The Man of Tai Chi</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">47 Ronin</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">Replicas</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">Siberia</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">The Day the Earth Stood Still</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">The Whole Truth</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">Exposed</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">The Devil's Advocate</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">Point Break</span></li></a>
+                <a href="#mainContent" class="quickNavClickMovie"><li><span class="listText">My Own Private Idaho</span></li></a>
+            </ol>
+        </section>
+        <section class="moviesSection">
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/matrix.jpg" alt="the matrix" id="mov1">
+                <div class="colorOver"></div>
+                <h3>The Matrix</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/wick2.jpg" alt="john wick" id="mov2">
+                <div class="colorOver"></div>
+                <h3>John Wick</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/constantine.jpg" alt="constantine" id="mov3">
+                <div class="colorOver"></div>
+                <h3>Constantine</h3>
+            </a>
+            <a href="#mainContent" class="allMovies" id="speedAward">
+                <img src="./images/speed.jpg" alt="speed" id="mov4">
+                <div class="colorOver"></div>
+                <h3>Speed</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/mtc.jpg" alt="man of tai chi" id="mov5">
+                <div class="colorOver"></div>
+                <h3>The Man of Tai Chi</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/ronin.jpg" alt="47 ronin"  id="mov6">
+                <div class="colorOver"></div>
+                <h3>47 Ronin</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/replicas.jpeg" alt="replicas" id="mov7">
+                <div class="colorOver"></div>
+                <h3>Replicas</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/siberia.jpeg" alt="siberia" id="mov8">
+                <div class="colorOver"></div>
+                <h3>Siberia</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/tdess.jpeg" alt="the day the earth stood still" id="mov9">
+                <div class="colorOver"></div>
+                <h3>The Day the Earth Stood Still</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/whole_truth.jpeg" alt="whole truth" id="mov10">
+                <div class="colorOver"></div>
+                <h3>The Whole Truth</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/exposed.jpg" alt="exposed" id="mov11">
+                <div class="colorOver"></div>
+                <h3>Exposed</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/d_advocate.jpg" alt="devil's advocate" id="mov12">
+                <div class="colorOver"></div>
+                <h3>Devil's Advocate</h3>
+            </a>
+            <a href="#mainContent" class="allMovies" id="pbAward">
+                <img src="./images/p_break.jpg" alt="point break" id="mov13">
+                <div class="colorOver"></div>
+                <h3>Point Break</h3>
+            </a>
+            <a href="#mainContent" class="allMovies">
+                <img src="./images/p_idaho.jpg" alt="private idaho" id="mov14">
+                <div class="colorOver"></div>
+                <h3>My Own Private Idaho</h3>
+            </a>
+        </section>
+        <section id="mainContent">
+            <div id="leftPart">
+                <img src="" alt="">
+            </div>
+            <div class="rightPart">
+                <iframe src="" frameborder="0" id="movDetails"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="about">
+            <a href="./index.html"  class="logo">
+                <img src="./images/logo.png" width="120px" height="120px">
+            </a>
+        </div>
+        <div class="attributions">
+            <h3>Attributions</h3>
+            <ul>
+                <li><a href="https://www.flaticon.com/free-icons/video" title="video icons">Video icons created by Freepik - Flaticon</a></li>
+            </ul>    
+        </div>
+    </footer>
+</body>
+</html>

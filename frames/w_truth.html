@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        h1{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Whole Truth</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XZj7DFQEWwo?rel=0;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Mystery & Thriller</button>
+        <button>Drama</button>
+        <button>Crime</button>
+    </p>
+    
+
+    <section>
+        <p>
+            A defense attorney (Keanu Reeves) tries to get his teenage client (Gabriel Basso) acquitted for the murder of his father (Jim Belushi).
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/ItDDQ0XV4Aej4Y_23p695gWhJlw=/218x280/v2/https://flxt.tmsimg.com/assets/287279_v9_bc.jpg">
+                    <p>Renée Zellweger <i>as Loretta</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/eYoix3vUdiUyLeespVzkfJaBLkE=/218x280/v2/https://flxt.tmsimg.com/assets/510504_v9_bc.jpg">
+                    <p>Gugu Mbatha-Raw <i>as Janelle</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/d1jIsnMX5_ptmU9ZR1v7CpspBHM=/218x280/v2/https://flxt.tmsimg.com/assets/559209_v9_bb.jpg">
+                    <p>Gabriel Baso <i>as Mike</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/zjIya4hijzpzlN1Nzi7rJv-PQJU=/218x280/v2/https://flxt.tmsimg.com/assets/70972_v9_bc.jpg">
+                    <p>Jim Belushi <i>as Boone</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/tp8c9DUnchmBTkHTR2qPCJXQ0ig=/218x280/v2/https://flxt.tmsimg.com/assets/136307_v9_bb.jpg">
+                    <p>Sean Bridgers <i>as Arthur Westin</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

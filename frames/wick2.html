@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.css">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }body::-webkit-scrollbar{
+            display: none;
+        }
+        .fa-arrow-left{
+            font-size: 1.5rem;
+        }
+        .backButton{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid black;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 10%;
+            color: black;
+            text-decoration: none;
+        }
+        .backButton:hover{
+            background-color: black;
+            color: white;
+        }
+        h1{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <a href="./wick.html" class="backButton">
+        <i class="fa-solid fa-arrow-left"></i>
+    </a>
+    <h1>John Wick 2</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XGk2EfbD_Ps?rel=0;controls=0&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Action</button>
+        <button>Mystery & Thriller</button>
+    </p>
+    
+
+    <section>
+        <p>
+            Retired super-assassin John Wick's plans to resume a quiet civilian life are cut short when Italian gangster Santino D'Antonio shows up on his doorstep with a gold marker, compelling him to repay past favors. Ordered by Winston, kingpin of secret assassin society The Continental, to respect the organization's ancient code, Wick reluctantly accepts the assignment to travel to Rome to take out D'Antonio's sister, the ruthless capo atop the Italian Camorra crime syndicate.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/6MdSGt2o6joSRrUT4-wz6pJHM_o=/218x280/v2/https://flxt.tmsimg.com/assets/259905_v9_bc.jpg">
+                    <p>Common <i>as Cassian</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/pDRau6oPZ6jfzOa28K1iCkGTa4Y=/218x280/v2/https://flxt.tmsimg.com/assets/71229_v9_bb.jpg">
+                    <p>Laurence Fishburne <i>as Bowery King</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/f5q7uALJwfQqT0ollnzc2O5KpZg=/218x280/v2/https://flxt.tmsimg.com/assets/491696_v9_bb.jpg">
+                    <p>Riccardo Scamarcio <i>as Santino D'Antonio</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/jfj2uEECeJwkvnSIc0ntXMSGEk0=/218x280/v2/https://flxt.tmsimg.com/assets/777506_v9_bb.jpg">
+                    <p>Ruby Rose <i>as Ares</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/Ex6EhadQeU_TrpC3PH7hxVI_2X4=/218x280/v2/https://flxt.tmsimg.com/assets/158649_v9_bc.jpg">
+                    <p>Lance Reddick <i>as Charon</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

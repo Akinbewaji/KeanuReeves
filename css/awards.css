@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.eachStack{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+}
+/* h1:not(:first-child){
+    font-size: 1.25rem;
+} */
+.firstPage{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.firstAward{
+    background-color: aqua;
+    background-size: 100% 100vh;
+    border-bottom-right-radius: 700px;
+}
+.firstAward h3{
+    /* font-size: 2rem; */
+    margin: 50vh 5vw 0 8vw;
+}
+.firstAward .textPart{
+    width: 40%;
+    border-bottom-right-radius: 300px;
+    font-size: 1.25rem;
+}
+.firstAward .textPart h1{
+    margin: 10px 0;
+    font-family: Verdana, sans-serif;
+}
+.firstAward .textPart h3{
+    margin: 0;
+}
+.firstAward .textPart h3 a{
+    text-decoration: underline;
+    text-decoration-color: ghostwhite;
+    color: inherit;
+}
+.firstAward img{
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 3vw;
+}
+.space{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: dimgrey;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.secondAward{
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.secondAward .textPart{
+    width: 40%;
+    margin: 0 2vw 0 5vw;
+    font-size: 1.25rem;
+}
+.secondAward .textPart section{
+    margin: 0 0 5vh 0;
+}
+.secondAward .textPart section h1{
+    margin: 0 0 10px 0;
+    font-family: Verdana, sans-serif;
+}
+.secondAward .textPart section h3{
+    margin: 5px 0;
+}
+.secondAward img{
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.interlude{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interlude h1{
+    transition: 3s linear;
+    transition-property: transform, -webkit-text-stroke, color, text-transform;
+}
+.interlude h1:hover{
+    transform: scale(5);
+    color: green;
+    /* text-transform: uppercase; */
+    -webkit-text-stroke: 1px white;
+}
+.thirdAward{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    justify-content: space-evenly;
+    /* background-image: url(../images/matrix!.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 130%; */
+}
+.thirdAward .textPart{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    border-radius: 30px;
+    color: black;
+    backdrop-filter: blur(3px);
+    font-size: 1.25rem;
+}
+.thirdAward .textPart a{
+    color: inherit;
+}
+.thirdAward .textPart .m{
+    text-decoration: underline;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+}
+.thirdAward .textPart section{
+    margin: 0 0 5vh 0;
+}
+.thirdAward .textPart *{
+    margin: 0;
+}
+.thirdAward img{
+    height: 110vh;
+    object-fit: cover;
+    border-radius: 30px 0 30px 0;
+}

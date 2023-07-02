@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.css">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        .fa-arrow-left{
+            font-size: 1.5rem;
+        }
+        .backButton{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid black;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 10%;
+            color: black;
+            text-decoration: none;
+        }
+        .backButton:hover{
+            background-color: black;
+            color: white;
+        }
+        h1{
+            margin: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <a href="./wick.html" class="backButton">
+        <i class="fa-solid fa-arrow-left"></i>
+    </a>
+    <h1>John Wick 4</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yjRHZEUamCc?rel=0;controls=0&amp;start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Action</button>
+        <button>Mystery & Thriller</button>
+    </p>
+    
+
+    <section>
+        <p>
+            John Wick (Keanu Reeves) uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/RrvQ-gICkRa_kbqCvOPAIaA7Uuo=/218x280/v2/https://flxt.tmsimg.com/assets/72374_v9_bb.jpg">
+                    <p>Donnie Yen <i>as Canie</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/QlHBkE49rzjiPXKtF75oovVyUrk=/218x280/v2/https://flxt.tmsimg.com/assets/596590_v9_bb.jpg">
+                    <p>Bill Skarsgård <i>as Marquis</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/pDRau6oPZ6jfzOa28K1iCkGTa4Y=/218x280/v2/https://flxt.tmsimg.com/assets/71229_v9_bb.jpg">
+                    <p>Laurence Fishburne <i>as Bowery King</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/ElLfR-OaJ_qStMEJ_FDc6VCfJiw=/218x280/v2/https://flxt.tmsimg.com/assets/70116_v9_bc.jpg">
+                    <p>Hiroyuki Sanada <i>as Shimazu</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/7TZHdXh294eGsCS7yh_YcXico4o=/218x280/v2/https://flxt.tmsimg.com/assets/676319_v9_bc.jpg">
+                    <p>Shamier Anderson <i>as Tracker</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

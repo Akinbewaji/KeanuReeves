@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: "Candara";
+            color: white;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        button{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px black solid;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .castContainer{
+            display: flex;
+            gap: 10px;
+        }
+        .castContainer div{
+            max-width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+        }
+        .castContainer div img{
+            width: 70%;
+        }
+        .castContainer div *{
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Constantine</h1>
+    <!-- PICTURE OR VIDEO TO BE HERE -->
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DEa508Xmmio?rel=0;controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <p>
+        Genre: <button>Fantasy</button>
+        <button>Horror</button>
+    </p>
+    
+
+    <section>
+        <p>
+            As a suicide survivor, demon hunter John Constantine (Keanu Reeves) has literally been to hell and back -- and he knows that when he dies, he's got a one-way ticket to Satan's realm unless he can earn enough goodwill to climb God's stairway to heaven. While helping policewoman Angela Dodson (Rachel Weisz) investigate her identical twin's apparent suicide, Constantine becomes caught up in a supernatural plot involving both demonic and angelic forces. Based on the DC/Vertigo "Hellblazer" comics.
+        </p>
+        <article>
+            <h2>Cast</h2>
+            <div class="castContainer">
+                <div>
+                    <img src="../images/reeves.jpg">
+                    <p>Keanu Reeves <i>as Hill</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/ZaQEFE8-coHl8OAegA9eW744NJM=/218x280/v2/https://flxt.tmsimg.com/assets/74113_v9_bb.jpg" alt="conCast2">
+                    <p>Rachel Weisz <i>as Dodson</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/ZXt0kiX0xQOAn5jv0mnoXMB9iew=/218x280/v2/https://flxt.tmsimg.com/assets/189825_v9_bc.jpg" alt="conCast3">
+                    <p>Shia LaBeouf <i>as Chas Kramer</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/wS23tcrMhoalSvCowA72_3Pl4wg=/218x280/v2/https://flxt.tmsimg.com/assets/74149_v9_bb.jpg" alt="conCast4">
+                    <p>Djimon Hounsou <i>as Papa Midnite</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/blvzdEs2iZisE0lJjD9zr8JvV6U=/218x280/v2/https://flxt.tmsimg.com/assets/174782_v9_ba.jpg" alt="conCast5">
+                    <p>Max Baker <i>as Beeman</i></p>
+                </div>
+                <div>
+                    <img src="https://resizing.flixster.com/sumZumeUIjKmLCWbUT9hiZYFkZ4=/218x280/v2/https://flxt.tmsimg.com/assets/52395_v9_ba.jpg" alt="conCast6">
+                    <p>Pruitt Taylor Vince <i>as Father Hennessy</i></p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

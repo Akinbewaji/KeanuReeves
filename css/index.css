@@ -1,0 +1,457 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.fa-bars{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.upComing{
+    width: 80vw;
+    height: 90vh;
+    background-color: #fdfbfe;
+    border: 3px solid black;
+    border-radius: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 111;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.upComing button{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(50px);
+    font-size: 40px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+.backgroundVid {
+    width: 100.5%;
+    height: 75%;
+    border: none;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.upComing .textPart{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #222;
+}
+.upComing .textPart hr{
+    border: 0.5px solid dimgray;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+.upComing .textPart div h2{
+    text-align: center;
+    font-size: 2.45rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 8px;
+}
+.upComing .textPart div h3{
+    margin: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.upComing .textPart a{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgrey;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+.upComing .textPart a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+header{
+    width: 100%;
+    height: 18vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    backdrop-filter: blur(2px);
+}
+header .logo{
+    display: flex;
+    margin: 0 0 0 5vw;
+}
+header .logo h1{
+    color: #fdfbfe;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Jura", sans-serif;
+    margin: 0 0 0 10px;
+}
+header .logo img{
+    border-radius: 50%;
+}
+.menuBar{
+    width: 6%;
+    height: 50px;
+    background-color: inherit;
+    position: fixed;
+    right: 0;
+    top: 50px;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+    transition-property: width, color, background-color;
+}
+.menuBar:hover .fa-bars{
+    color: #000;
+}
+.menuBar:hover {
+    width: 8%;
+    height: 50px;
+    background-color: white;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.popupMenu{
+    width: 80%;
+    height: 80vh;
+    display: none;
+    background-color: aliceblue;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 555;
+    transform: translate(-50%, -50%);
+}
+.popupMenu button{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 555;
+    top: 40px;
+    right: 40px;
+    font-size: 40px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.popupMenu a{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+.popupMenu .current{
+    color: #F0454A;
+}
+.firstPage{
+    width: 100%;
+    height: 130vh;
+    background-color: #000;
+    background-image: url(../images/dark4.jpg);
+    background-position: left;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+main .firstPage section{
+    width: 45%;
+    margin-top: 10%;
+    float: right;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.firstPage section h1{
+    color: #fff;
+    font-size: 5rem;
+}
+.firstPage section h2{
+    color: #fff;
+    font-size: 1.65rem;
+}
+main .secondPage{
+    width: 100%;
+    height: 130vh;
+    padding: 2%;
+    box-sizing: border-box;
+    background-image: url(../images/dark3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.secondPage section{
+    width: 38%;
+}
+.secondPage section h1{
+    font-size: 4.5rem;
+    font-family: "Montserrat",sans-serif;
+    margin: 10px 0;
+}
+.secondPage section a{
+    width: 25vw;
+    height: 8vh;
+    border: 3.5px dashed black ;
+    border-radius: 20px;
+    background-color: #13a69c;
+    color: #fdfbfe;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+.secondPage section a:hover{
+    background-color: #000;
+    color: #fdfbfe;
+}
+.thirdPage{
+    width: 100%;
+    height: 130vh;
+    padding: 2%;
+    box-sizing: border-box;
+    background-image: url(../images/award.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.thirdPage::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,0.5);
+    width: 100%;
+    height: 130vh;
+    z-index: 111;
+}
+.thirdPage section{
+    width: 35%;
+    height: 85%;
+    border-radius: 15px;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    z-index: 112;
+}
+.thirdPage section h1{
+    font-size: 4.5rem;
+    font-family: "Montserrat",sans-serif;
+    margin: 10px 0;
+}
+.thirdPage section a{
+    width: 25vw;
+    height: 8vh;
+    border: 3.5px dashed black ;
+    border-radius: 20px;
+    background-color: rgb(117, 91, 70, 0.6);
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    margin: 25% auto 0;
+}
+.thirdPage section a:hover{
+    background-color: #755b46;
+    color: #fdfbfe;
+}
+.fourthPage{
+    width: 100%;
+    height: 130vh;
+    padding: 2%;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    background-color: #222;
+    color: #f3efe0;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fourthPage img{
+    width: 50%;
+    height: 80%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.fourthPage section{
+    width: 40%;
+    margin-right: 10px;
+    text-align: center;
+    font-family: "Georgia", serif;
+    font-size: 2rem;
+}
+.fourthPage section h1{
+    margin: 0;
+    font-size: 4rem;
+}
+.fourthPage section h2{
+    margin: 0;
+}
+main .contactMe h1{
+    font-size: 3.5rem;
+    font-family: "Candara",sans-serif;
+    text-align: center;
+}
+.fa-brands{
+    font-size: 40px;
+}
+.socialMedia{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto 50px;
+}
+.logoContainer{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: initial;
+    outline: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoContainer:hover{
+    outline-offset: 5px;
+    animation: shake 0.25s;
+}
+.iG:hover{
+    outline-color: rgb(252, 175, 69);
+    background-color: #F0454A;
+}
+.twitter:hover{
+    outline-color: #1DA1F2;
+    background-color: #1DA1F2;
+}
+.tg:hover{
+    outline-color: #0077B5;
+    background-color: #08c;
+}
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+}
+.about{
+    width: 20%;
+    text-align: center;
+    color: #fdfbfe;
+}
+.about h2{
+    font-size: smaller;
+    font-family: "Comic Sans MS", sans-serif;
+}
+.pseudoNavBar{
+    width: 50%;
+    text-align: center;
+}
+.pseudoNavBar h2{
+    color: #fdfbfe;
+}
+.pseudoNavBar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pseudoNavBar ul a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.pseudoNavBar ul a:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+.pseudoNavBar h2 {
+    margin: 0;
+}
+
+.attributions{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.attributions h3:first-child {
+    color: whitesmoke;
+    margin: 10px 0;
+}
+
+.attributions h3:not(:first-child) {
+    margin: 8px 0;
+}
+
+.attributions ul {
+    margin: 6px 0;
+    color: whitesmoke;
+    padding-inline-start: 20px;
+    list-style: square;
+}
+.attributions ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}

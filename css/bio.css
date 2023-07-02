@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #212a3e;
+}
+
+.hero {
+    border-radius: 20px;
+    background-color: #f1f6f9;
+    padding-bottom: 20px;
+    color: #212a3e;
+}
+
+.hero div {
+    padding: 10px;
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: transparent;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+header .logo img {
+    border-radius: 40px;
+}
+
+div h1 {
+    margin: 0;
+    margin-bottom: 8vh;
+    font-size: 5.5rem;
+    background: linear-gradient(right, #000, #fff);
+    background-clip: text;
+    /* color: brown; */
+}
+
+article {
+    font-size: 1.25rem;
+}
+
+.introCareer img {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.card {
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 0 50px 50px 0;
+    background-color: #212a3e;
+    transform: translateX(-10px);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: "Candara", sans-serif;
+    text-indent: 20%;
+    color: whitesmoke;
+}
+
+.actingCareer {
+    line-height: 24px;
+}
+
+.actingCareer ul {
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-inline-start: 30px;
+}
+
+.actingCareer ul li {
+    flex: 1 1 17vw;
+}
+
+.actingCareer .fullMovies {
+    display: block;
+    color: #353535;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.special {
+    color: #353535;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    padding: 1.5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about {
+    text-align: center;
+}
+
+.about p {
+    margin: 10px 0;
+    color: whitesmoke;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    color: whitesmoke;
+    margin-right: 20px;
+}
+
+.logoContainer {
+    text-decoration: none;
+
+}
+
+.logoContainer:hover {
+    outline-offset: 5px;
+    animation: shake 0.25s;
+}
+
+.pseudoNavBar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.pseudoNavBar h2{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.pseudoNavBar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.25rem;
+}
+
+.pseudoNavBar ul a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.pseudoNavBar ul a:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+.pseudoNavBar h2 {
+    margin: 0;
+}
+
+.attributions{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.attributions h3:first-child {
+    color: whitesmoke;
+    margin: 10px 0;
+}
+
+.attributions h3:not(:first-child) {
+    margin: 8px 0;
+}
+
+.attributions ul {
+    margin: 6px 0;
+    color: whitesmoke;
+    padding-inline-start: 20px;
+    list-style: square;
+}
+
+footer .attributions ul a {
+    color: whitesmoke;
+}
